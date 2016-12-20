@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_App</string>
+    <string name="Calendrier">Calendar</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Retour">Return</string>
+    <string name="Liste_Bieres">Beers List</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+
+
+</resources>

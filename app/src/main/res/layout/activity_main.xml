@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.esiea.lawani.rateau.mon_app.MainActivity">
+
+
+    <Button
+        android:text="Rechercher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_above="@+id/image"
+        android:layout_alignLeft="@+id/notif"
+        android:layout_alignStart="@+id/notif"
+        android:layout_marginBottom="27dp" />
+
+    <Button
+        android:text="@string/Calendrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notif"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/button"
+        android:layout_alignRight="@+id/liste_bieres"
+        android:layout_alignEnd="@+id/liste_bieres"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/search"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:layout_alignRight="@+id/notif"
+        android:layout_alignEnd="@+id/notif" />
+
+    <Button
+        android:text="@string/Liste_Bieres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/liste_bieres"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/notif"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
